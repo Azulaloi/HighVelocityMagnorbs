@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "magnorbs", "count" : 1 },
+    { "item" : "solariumstar", "count" : 12 }
+  ],
+  "output" : { "item" : "hvmagnorbs", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

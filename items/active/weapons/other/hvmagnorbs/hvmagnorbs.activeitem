@@ -1,0 +1,57 @@
+{
+  "itemName" : "hvmagnorbs",
+  "level" : 6,
+  "price" : 6000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An improved set of magnetic bracers for throwing and catching special orbs.",
+  "shortdescription" : "High-Velocity Magnorbs",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "hvmagnorbs.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["hvmagnorbs.lua"],
+
+  "orbitRate" : 1.5,
+
+  "projectileType" : "hvmagnorb",
+  "projectileParameters" : {
+    "power" : 4.25,
+    "knockback" : 5,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 140,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldKnockback" : 10,
+  "shieldEnergyCost" : 80,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}
