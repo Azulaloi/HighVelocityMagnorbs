@@ -1,9 +1,9 @@
 {
-  "version" : "0.0.2",
   "author" : "Azulaloi",
-  "description" : "A high-tier upgrade for the Magnorbs. Requires Magnorbs and 12 Solarium, crafted at the Replicator. ",
+  "description" : "If you like Magnorbs, check out my more recent mod, [url= http://steamcommunity.com/sharedfiles/filedetails/?id=746884345]Expanded Magnorbs.[/url] It contains over a dozen Magnorb sets, with more on the way. That mod and this mod work together, but if you use ExNorbs, I recommend uninstalling this one, as ExNorbs is not balanced with this mod in mind, and has similar functionality \n\nA high-tier upgrade for the Magnorbs. Requires Magnorbs and 12 Solarium, crafted at the Replicator. \n\nRecipe is learned upon picking up Magnorbs. If you can't see the recipe, drop and pick up your Magnorbs.\n\nItem code is 'hvmagnorbs'.",
+  "friendlyName" : "High-Velocity Magnorbs",
+  "link" : "steam://url/CommunityFilePage/743389800",
   "name" : "hvmagnorbs",
   "steamContentId" : "743389800",
-  "friendlyName" : "High-Velocity Magnorbs",
-  "link" : "steam://url/CommunityFilePage/743389800"
+  "version" : "0.0.3"
 }
